@@ -1,0 +1,100 @@
+.banner{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+  	height: 600px;
+  	background-image: url(https://images.unsplash.com/photo-1565873188259-a67a1baab536?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80);
+  	background-size: cover;
+}
+
+
+.banner-content {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.button {
+	padding:16px 0 16px 0;
+	font:bold 20px Arial;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:150px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px black;
+}
+
+
+.cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 400px;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:  #EAF2F8;
+	height: 300px;
+	width : 300px;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 30px;
+	text-shadow: 1px 1px #919DA2  ;
+}
+
+.card2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:  #EAF2F8;
+	height: 300px;
+	width : 300px;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 30px;
+	text-shadow: 1px 1px #919DA2  ;
+}
+.card3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:  #EAF2F8;
+	height: 300px;
+	width : 300px;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 30px;
+	text-shadow: 1px 1px #919DA2  ;
+}
+
+.footer{
+	align-items: center;
+	background-color: white;
+	height: 200px;
+	font-size: 15px;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.link {
+	color: #555554 ;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
